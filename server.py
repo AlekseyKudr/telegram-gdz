@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import time
 
-client = telebot.TeleBot("5798604732:AAEK4hGVRdwLfgzQJ6aTuk-woyLE3zgTunA")
+client = telebot.TeleBot("5798604732:AAGHAPEjtG3Ts7MLRyf8xpnxsnE-p1ovPN4")
 
 #Создание команды start и ответ на нее с кнопкой "Начать"
 @client.message_handler(commands = ["start"])
@@ -111,7 +111,7 @@ def get_photo(message):
         client.send_message(message.chat.id, "<b>Отлично!\n⛔Для того, чтобы бот выслал решение, тебе остался последний шаг, "
                                              "тебе необходимо подписаться на каналы спонсоры, благодаря которым наш "
                                              "бот работает бесплатно</b> "
-                                             "\n1) <a href='https://t.me/+TDwssqEuDhhmMmMy'>Чат Аниме</a>"
+                                             "\n1) <a href='https://t.me/+txD03dWrovI0NTdi'>Чат Аниме</a>"
                                              "\n2) <a href='https://t.me/+7JyMfqQQaKZjMDBi'>СМИ</a>"
                                              "\n3) <a href='https://t.me/+H8dDrnVBs_9hM2Zi'>COOL</a>"
                                              "\n4) <a href='https://t.me/+eu1CdshiLNs2MTdi'>Книга Рекордов</a>"
